@@ -48,7 +48,7 @@
   				}
   				else
   				{
-  					if (str.indexOf(substring) >= 0)
+  					if (str.toLowerCase().indexOf(substring) >= 0)
   					{
   						$('#dropDown').slideDown('fast');
   						var linker = 
